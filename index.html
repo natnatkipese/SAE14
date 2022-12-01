@@ -1,0 +1,146 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Portfolio 
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>
+        <span class="material-symbols-outlined">
+          magic_button
+        </span>
+        Nathan Imbernon
+      </h1>
+      <ul>
+        <li>
+          nathan.imbernon@uha.fr
+          <span class="material-symbols-outlined">
+            call_made
+          </span>
+        </li>
+        <li id="dark-light-mode">Dark mode</li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="header-left">
+        <small
+          ><span class="material-symbols-outlined">
+            home_pin
+          </span>
+          Fraize Vosges France</small
+        >
+        <h1>Salut,<br/> je suis Nathan</h1>
+        <p>
+          J'habite à Fraize dans les Vosges une petite ville sympatique, J'ai 18 ans et je viens d'avoir mon permis il y'a une semaine donc tout vas pour le mieux. J'ai une soeur jumelle qui s'appelle Juline.
+        </p>
+
+        <div class="links">
+          <a href="">
+            Email
+            <span class="material-symbols-outlined">
+              call_made
+            </span></a
+          >
+          <a href="https://www.instagram.com/nath_imb/?hl=fr">
+            Instagram
+            <span class="material-symbols-outlined">
+              call_made
+            </span></a
+          >
+          <a href=""
+            >twitter
+            <span class="material-symbols-outlined">
+              call_made
+            </span></a
+          >
+        </div>
+      </div>
+      <div class="header-right">
+        <img
+          src="photo/chat.jpg"
+          alt="profile-photo"
+        />
+      </div>
+    </header>
+
+    <section class="about">
+      <h4>À propos de moi</h4>
+      <p>
+        Alors j'ai commencé en primaire à Jules Ferry dans la ville de Fraize puis ensuite au collége privée "La Providence" à Saint Dié Des Vosges pour ensuite venir au lycée Georges Baumont pour pouvoir fair STI2D et continuer sur IUT COLMAR Réseaux & Télécomunication.
+        
+        <br /><br />
+        J'ai voulu aller en réseaux télécom car j'adore l'informatique puis tout ce qui touche à la programmation. C'est surtout pour la cybersécurité que je suis venue à Colmar et aussi car mon père travaille dans cette ville donc si j'ai un problème il peut m'aider.
+Plus tard dans la vie j'aimerais être Hacker éthique car j'adore, même si je n'ai aucune compétence.
+      </p>
+
+      <img
+        class="signature"
+        alt="signature"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/27/Narf_signature.png"
+      />
+    </section>
+
+    <section class="images">
+
+      <div class="image-card">
+        <div class="image-left">
+          <img
+            src="photo/Fraize88.jpg"
+            alt=""
+          />
+        </div>
+        <div class="image-right">
+          <a href="document.html">Document traces sur intérêt et solutions</a>
+          <p>
+            Les seules traces de moi son quand je suis dans un club de sports sauf que les seules traces que j'ai trouvé son l'année dernière quand je faisais du volley.
+          </p>
+        </div>
+      </div>
+
+      <div class="image-card">
+        <div class="image-left">
+          <img
+            src="photo/ofs-sportoase-leuven-12-09-18-029.jpg"
+            alt=""
+          />
+        </div>
+        <div class="image-right">
+          <a href="projet_centre.html">Projet/Centre d'intérêt</a>
+          <p>
+            J'ai commencé le street workout pour pouvoir forger mon corps et surtout avoir plus de force. Ce sport je le trouve magnifique car on peut s'amuser et faire ce qu'on veut juste en utilisant nos muscles pour pouvoir faire des figures.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h3>
+        <span class="material-symbols-outlined">
+          magic_button
+        </span>
+        Nathan Imbernon
+      </h3>
+
+      <p>&copy; Nathan Imbernon 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      function getMouseCoords(e) {
+        var e = e || window.event;
+        document.getElementById('container').innerHTML = e.clientX + ', ' +
+          e.clientY + '<br>' + e.screenX + ', ' + e.screenY;
+      }
+      
+    </script>
+  </body>
